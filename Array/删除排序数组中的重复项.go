@@ -1,4 +1,4 @@
-package main
+package Array
 
 func removeDuplicates(nums []int) int {
 	first, second := 0, 0
