@@ -1,6 +1,6 @@
 package Array
 
-import "fmt"
+//import "fmt"
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int) //字典声明，[key]value

@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package Array
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	//假设nums1的长度大
@@ -58,6 +56,7 @@ func max(i int, i2 int) int {
 	return i2
 }
 
-func main() {
-	fmt.Println(findMedianSortedArrays([]int{2, 7, 11, 15}, []int{3, 45}))
-}
+//
+//func main() {
+//	fmt.Println(findMedianSortedArrays([]int{2, 7, 11, 15}, []int{3, 45}))
+//}
